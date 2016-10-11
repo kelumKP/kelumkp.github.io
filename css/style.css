@@ -70,8 +70,8 @@
                        1 ) Font Import From Google Fonts
                       -----------------------------------*/
 
-@import url(https://github.com/kelumKP/kelumkp.github.io/blob/master/css/fonts?family=Hind:300,500);
-@import url(https://github.com/kelumKP/kelumkp.github.io/blob/master/css/fonts?family=Open+Sans:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Hind:300,500);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic);
 
                     /*----------------------
                        2 ) Preloader Styles
