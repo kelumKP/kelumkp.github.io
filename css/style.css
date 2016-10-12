@@ -65,6 +65,12 @@
 
 --------------------------------------------------------
 */
+                    /*-----------------------------------
+                       1 ) Font Import From Google Fonts
+                      -----------------------------------*/
+  
+@import url(http://fonts.googleapis.com/css?family=Hind:300,500);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic);
 
 
 
@@ -1270,9 +1276,3 @@ body {
     margin: 0;
 }
 
-                    /*-----------------------------------
-                       1 ) Font Import From Google Fonts
-                      -----------------------------------*/
-  
-@import url(http://fonts.googleapis.com/css?family=Hind:300,500);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic);
