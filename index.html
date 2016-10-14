@@ -320,7 +320,7 @@
             <div class="footer clearfix">
                 <a href="https://kelumkp.github.io">@kelum</a>
                 <p>
-                    Copyright &copy; <span class="copyrightstatement">2014</span> Kanthake Inc.
+                    Copyright &copy; <span class="copyrightstatement"></span> Kanthake Inc.
                 </p>
             </div>
         </div>
@@ -511,7 +511,7 @@
             <div class="footer clearfix">
                 <a href="https://kelumkp.github.io">@kelum</a>
                 <p>
-                    Copyright &copy; <span class="copyrightstatement">2014</span> Kanthake Inc.
+                    Copyright &copy; <span class="copyrightstatement"></span> Kanthake Inc.
                 </p>
             </div>
         </div>
@@ -934,7 +934,7 @@
             <div class="footer clearfix">
                 <a href="https://kelumkp.github.io">@kelum</a>
                 <p>
-                    Copyright &copy; <span class="copyrightstatement">2014</span> Kanthake Inc.
+                    Copyright &copy; <span class="copyrightstatement"></span> Kanthake Inc.
                 </p>
             </div>
         </div>
@@ -1092,7 +1092,7 @@
             <div class="footer clearfix">
                 <a href="https://kelumkp.github.io">@kelum</a>
                 <p>
-                    Copyright &copy; <span class="copyrightstatement">2014</span> Kanthake Inc.
+                    Copyright &copy; <span class="copyrightstatement"></span> Kanthake Inc.
                 </p>
             </div>
         </div>
@@ -1117,10 +1117,14 @@
      10 ) Copyright Year
     =============-->
     <script>
-      var thisYear  = new Date().getFullYear(),
-      startYear = '2014';
-
-      if (thisYear > startYear) { $('.copyrightstatement').text(startYear + '-' + thisYear); }
-</script>
+      
+    $(function(){
+      
+      var theYear = new Date.getFullYear();
+      $('.copyrightstatement').html(theYear);
+      
+    });
+      
+    </script>
 </body>
 </html>
