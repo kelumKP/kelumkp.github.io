@@ -1112,16 +1112,13 @@
     <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
     <script type="text/javascript" src="library/gMap/jquery.gmap.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript" src="library/jquery/jquery-3.1.1.min.js"></script>
+
   
       <!--============
      10 ) Copyright Year
     =============-->
     <script>
-      $(function(){
-        var theYear = new Date.getFullYear();
-        document.getElementById('.copyrightstatement').html(theYear);
-      });
+      document.getElementById('.copyrightstatement').appendChild(document.createTextNode(new Date().getFullYear()))
     </script>
 </body>
 </html>
