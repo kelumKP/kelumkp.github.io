@@ -1272,3 +1272,13 @@ body {
     margin: 0;
 }
 
+                    /*-------------
+                       12 ) CopyRight Statement
+                      -------------*/
+.copyrightstatement {
+ font-family: 'Hind', sans-serif;
+ font-size: 14px;
+ font-weight: bold;
+ line-height: 1;
+ color: #fff;
+}
