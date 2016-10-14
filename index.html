@@ -1118,7 +1118,8 @@
      10 ) Copyright Year
     =============-->
     <script>
-      document.getElementById('.copyrightstatement').appendChild(document.createTextNode(new Date().getFullYear()))
+       var thisYear  = new Date().getFullYear()
+       $('.copyrightstatement').text(thisYear);
     </script>
 </body>
 </html>
