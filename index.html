@@ -1040,7 +1040,11 @@
                 <div class="contact col-sm-4">
                     <p>
                         <i class="fa fa-map-marker"></i><br>
-                         121 King St, Melbourne VIC
+                         No 54 Gall Road, Colombo 5, Sri Lanka
+                    </p>
+                    <p>
+                        <i class="fa fa-map-marker"></i><br>
+                         No 21, Matara Road, Matara, Sri Lanka
                     </p>
                 </div>
                 
@@ -1049,7 +1053,7 @@
                 <div class="contact col-sm-4">
                     <p>
                         <i class="fa fa-phone"></i><br>
-                         +00 000 0000 000
+                         +94 712 267 345
                     </p>
                 </div>
                 
@@ -1139,6 +1143,22 @@
       startYear = '2011';
 
       if (thisYear > startYear) { $('.copyrightstatement').text(thisYear); }
+      
+      $(document).ready(function() {
+
+        var map_id  = '#google-map';
+        var lat     = 41.04207384890103;
+        var lng     = 29.0972900390625;
+        var zoom    = 11;
+        var myOptions = { zoom : zoom,
+                      center : new google.maps.LatLng(lat, lng),
+                      mapTypeId : google.maps.MapTypeId.ROADMAP
+                    };
+
+        var map  = new google.maps.Map(document.getElementById("google-map"), myOptions);
+        
+      });
     </script>
+  
 </body>
 </html>
