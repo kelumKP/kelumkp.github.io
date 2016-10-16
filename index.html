@@ -1129,17 +1129,20 @@
     <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
     <script type="text/javascript" src="library/gMap/jquery.gmap.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQbh0AQGik_4lda7-ku0wBDatSg4sB8Nk&callback=initMap"></script>
   
       <!--============
      10 ) Copyright Year
     =============-->
-    <script>
-      var thisYear  = new Date().getFullYear(),
-      startYear = '2011';
+      <script>
+        var thisYear  = new Date().getFullYear(),
+        startYear = '2011';
 
-      if (thisYear > startYear) { $('.copyrightstatement').text(thisYear); }
-      
+        if (thisYear > startYear) { $('.copyrightstatement').text(thisYear); }
+      </script>  
+  
+      <script>
+
       function initMap() {
         var uluru = {lat: -25.363, lng: 131.044};
         var map = new google.maps.Map(document.getElementById('google-map'), {
