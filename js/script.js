@@ -1,17 +1,17 @@
 /*
 --------------------------------------------------------
 
-[ INSTA , Javscript ]
+[ Jessy , JavaScript ]
 
-  Template Name : INSTA - Responsive Onepage Resume Template
+  Template Name : Jessy - Responsive Onepage Resume Template
   
-  Version       :  1.0 
+  Version    :  1.0 
   
-  Author        :  Pixel_Factory
+  Author     :  Kanthake
   
-  Author URI    :  http://themeforest.net/user/Pixel_Factory
+  Author URI :  http://kelum.kp
   
-  Author Email  : h.nafees.anwar@gmail.com
+  Author Email : admin@gmail.com
 
 --------------------------------------------------------
 */
@@ -268,15 +268,15 @@ $(document).ready(function () {
         -------------------------------  */
 
     $('#google-map').gMap({
-        latitude: 6.851543,
-        longitude: 79.865919,
+        latitude: 31.562130,
+        longitude: 74.319460,
         maptype: 'TERRAIN',
         scrollwheel: false,
         zoom: 14,
         markers: [
             {
-                latitude: 6.851543,
-                longitude: 79.865919,
+                latitude: 31.562130,
+                longitude: 74.319460,
                 html: "I am Here!",
                 icon: {
                     image: "images/icon/map_marker.png",
